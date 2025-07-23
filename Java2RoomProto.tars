@@ -1,0 +1,54 @@
+module java2room
+{
+   	struct NotifyRoomReq
+   	{
+   	    0 require	int 		messageId;            //消息id
+   	    1 require	string 		roomId;               //roomId
+   	    2 require	string 		relateId;             //关联id
+   	    3 require	string 		extraInfo;            //额外信息
+   	};
+
+   	struct RoomOption
+	{
+	    1 optional string matchName;       		//赛事名字
+	    2 optional long beginTime;       		//开赛时间
+	    3 optional int maxPlayerCount;       	//最大报名数
+	    4 optional string matchAddr;       		//赛事地点
+	    5 optional int gameType;				//玩法 0 德州  1 短牌  2 奥马哈
+	    6 optional int matchType;      			//赛事类型 0:训练赛  1:主赛 2:边赛 3:教学赛 4:内部赛
+	    7 optional int tableType;      			//牌桌类型 0 单桌赛  1: 多桌赛
+	    8 optional int onlineGame;				//赛场类型 1 线上 0 线下
+	    9 optional int seatCount;      			//座位数
+	    10 optional int rebuyCount;				//rebuy次数
+	    11 optional long baseScore;				//起始记分牌
+	    12 optional string signUpFee;			//报名费
+	    13 optional string rewardConf;			//奖励配置
+	    14 optional string blindConf;			//盲注配置
+	    15 optional long signUpTime;			//开始报名时间
+	    16 optional int minPlayerCount;			//最小开赛人数
+	    17 optional string matchDesc;			//赛事说明
+	    18 optional string uperRoomIndex;		//上级赛事
+	    19 optional string matchIcon;			//赛事图标
+	    20 optional int thinkTime;				//思考时间
+	    21 optional int cycle;					//循环
+	};
+
+	struct ModifyRoom
+	{
+	    1 optional string roomKey;       		//赛事名字
+	    2 optional string roomIndex;			//房间索引
+	    3 optional map<string, string> roomInfo;//更新信息 key: content
+	};
+
+	struct MemberInfo
+	{
+		0 optional map<string, string> mapMemberInfo;
+	};
+
+	struct MemberRoom
+	{
+		1 optional string roomKey;       		//赛事名字
+	    2 optional string roomIndex;			//房间索引
+		3 optional vector<MemberInfo> vecMemberInfo;
+	};
+};
