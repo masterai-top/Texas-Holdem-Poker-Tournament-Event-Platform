@@ -51,13 +51,11 @@ This is a full poker tournament system
 ---
 
 ## 🚀 Quick Start
-
-```bash
 git clone xxx  
 cd server  
 npm install  
-npm run start
----
+npm run start  
+
 
 ## 📸 界面预览
 
