@@ -55,7 +55,26 @@ git clone xxx
 cd server  
 npm install  
 npm run start  
+## ✨ 核心特色 | Unique Features
 
+本项目是**支持线下赛事数字化**的德州扑克竞技赛系统：
+
+| 特色模块 | 功能说明 |
+| :--- | :--- |
+| 🏆 **赛事系统** | 类似CPG、TJPT的线上比赛模式，支持打门票 |
+| 📊 **线下赛事管理** | 离线比赛模式、选手签到、赛程管理 |
+| 👥 **俱乐部系统** | 俱乐部创建、内部赛事、排名体系 |
+| 🎫 **门票系统** | 在线报名、门票购买、对接国内赛事 |
+| 📈 **积分排名** | 选手积分、排行榜、赛季统计 |
+
+## 🎯 赛事模式 | Tournament Types
+
+| 模式 | 说明 |
+| :--- | :--- |
+| **Sit & Go** | 坐满即玩，快速比赛 |
+| **MTT** | 多桌锦标赛，大规模赛事 |
+| **Freezeout** | 冻结赛制，无重购 |
+| **Ranking League** | 积分联赛，赛季排名 |
 
 ## 📸 界面预览
 
@@ -81,3 +100,13 @@ npm run start
 
 📱 **Telegram：@xuzongbin001**  
 📧 **Email：masterai918@gmail.com**
+
+## 📊 Screenshots
+
+- Lobby
+- Poker Table
+- Tournament
+- Club System
+  ## 🧠 Architecture
+
+Client → Game Server → Match Engine → Database → Ranking System
