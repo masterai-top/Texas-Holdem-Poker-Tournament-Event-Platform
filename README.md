@@ -1,6 +1,6 @@
 # 🏆 Texas Hold’em Tournament Platform | 德州竞技赛系统 | 德州扑克锦标赛系统
 
-🔥 Offline Poker Tournament System | 离线赛事系统 | 离线德州比赛系统  
+🔥 Offline Poker Tournament System | 德州赛事系统 | 离线德州比赛系统  
 👉 Club + Ranking + Tournament Engine | Commercial Ready  
 
 ---
