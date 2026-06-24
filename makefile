@@ -28,16 +28,11 @@ include /home/tarsproto/XGame/ConfigServer/ConfigServer.mk
 include /home/tarsproto/XGame/HallServer/HallServer.mk
 include /home/tarsproto/XGame/GlobalServer/GlobalServer.mk
 include /home/tarsproto/XGame/PushServer/PushServer.mk
-include /home/tarsproto/XGame/OrderServer/OrderServer.mk
-include /home/tarsproto/XGame/GameRecordServer/GameRecordServer.mk
 include /home/tarsproto/XGame/protocols/protocols.mk
+include /home/tarsproto/XGame/GMServer/GMServer.mk
 include /usr/local/tars/cpp/makefile/makefile.tars
-include /home/tarsproto/XGame/RoomServer/RoomServer.mk
 
 #-----------------------------------------------------------------------
 
 xgame:
-	cp -f $(TARGET) /usr/local/app/tars/tarsnode/data/XCommon.GMServer/bin/
-
-143:
-	sshpass -p 'awzs2023' scp ./GMServer root@10.10.10.143:/home/yuj/server/gmserver
+	cp -f $(TARGET) /usr/local/app/tars/tarsnode/data/XGame.GMServer/bin/

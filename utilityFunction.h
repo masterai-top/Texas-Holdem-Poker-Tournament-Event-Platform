@@ -10,7 +10,7 @@
 #include "Define.h"
 
 //TODO 这里或许应该加个namespace
-/*static std::string datetimeToString(time_t time)
+static std::string datetimeToString(time_t time)
 {
 	tm *tm_ = localtime(&time);                // 将time_t格式转换为tm结构体
 	int year, month, day;// 定义时间的各个int临时变量。
@@ -32,7 +32,18 @@
 	std::string date = os.str();
 	return date;                                // 返回转换日期时间后的string变量。
 }
-*/
+
+static std::string getNow()
+{
+	return datetimeToString(time(nullptr));
+}
+
+//拆分字符串
+static vector<std::string> split(const string& str, const string& pattern)
+{
+	return TC_Common::sepstr<string>(str, pattern);
+}
+
 template<typename T>
 static void decode(const vector<tars::Char>& reqBuf, T& request)
 {

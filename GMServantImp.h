@@ -37,6 +37,8 @@ public:
 public:
     //http请求处理接口
     virtual tars::Int32 doRequest(const vector<tars::Char> &reqBuf, const map<std::string, std::string> &extraInfo, vector<tars::Char> &rspBuf, tars::TarsCurrentPtr current);
+    //配牌器
+    virtual tars::Int32 getCards(gm::GetCardsResp &resp, tars::TarsCurrentPtr current);
 
 public:
     //

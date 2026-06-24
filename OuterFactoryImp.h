@@ -16,13 +16,13 @@
 #include "HallServant.h"
 #include "GlobalServant.h"
 #include "PushServant.h"
-#include "OrderServant.h"
-#include "GameRecordServant.h"
 
 //
-using namespace hall;
 using namespace config;
+using namespace mail;
 using namespace global;
+using namespace hall;
+using namespace GoodsManager;
 
 //时区
 #define ONE_DAY_TIME (24*60*60)
@@ -90,18 +90,10 @@ public:
     const global::GlobalServantPrx getGlobalServantPrx(const long uid);
     //PushServer代理
     const push::PushServantPrx getPushServerPrx(const long uid);
-    //
-    const order::OrderServantPrx getOrderServerPrx(const long uid);
-    //
-    const gamerecord::GameRecordServantPrx getGameRecordServerPrx(const long uid);
 
 public:
     //格式化时间
     string GetTLogTimeFormat();
-
-    int getRoomServerPrx(const string &id, string &prx);
-
-    string getRoomIDByModel(int iModel);
 
 private:
     //拆分字符串成整形
@@ -112,9 +104,6 @@ private:
     void getIp(char *domain, char *ip);
     //域名解析
     string getIp(const string &domain);
-
-public:
-    void asyncAccountForbidden(const long lPlayerID, const bool bForbidden);
 
 private:
     wbl::ReadWriteLocker m_rwlock;
@@ -141,18 +130,6 @@ private:
     //推送服务
     string _sPushServantObj;
     push::PushServantPrx _pushServerPrx;
-
-    //订单服务
-    string _sOrderServantObj;
-    order::OrderServantPrx _orderServerPrx;
-
-    //记录服务
-    string _sGameRecordServantObj;
-    gamerecord::GameRecordServantPrx _gameRecordServerPrx;
-
-private:
-    std::map<string, string> _mapRoomServerFromRemote;
-
 };
 
 ////////////////////////////////////////////////////////////////////////////////
