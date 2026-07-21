@@ -1,4 +1,4 @@
-# 🏆 Texas Hold’em Tournament Platform | 德州比赛源码 |德州竞技赛系统 | 德州扑克锦标赛系统|德州源碼|德州撲克|德州俱樂部|德州游戏源码|Mã nguồn Poker
+# 🏆 德州比赛源码 |德州竞技赛系统 | 德州扑克锦标赛系统|德州源碼|德州撲克|德州俱樂部|德州游戏源码|Mã nguồn Poker|Texas Hold’em Tournament Platform 
 
 🔥 Offline Poker Tournament System | 德州赛事系统 | 离线德州比赛系统  
 👉 Club + Ranking + Tournament Engine | Commercial Ready  
