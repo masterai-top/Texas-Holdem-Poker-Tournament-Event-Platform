@@ -91,12 +91,9 @@ npm run start
 
 
 
-## 💰 获取源码 | Contact
+## 💰 联系 | Contact
 
-✅ 完整C++服务端源码  
-✅ 完整Cocos客户端源码  
-✅ 数据库脚本  
-✅ 部署文档  
+
 
 📱 **Telegram：@xuzongbin001**  
 📧 **Email：masterai918@gmail.com**
