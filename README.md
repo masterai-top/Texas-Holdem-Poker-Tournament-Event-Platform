@@ -1,7 +1,6 @@
 markdown
 # Poker Tournament System|德州比赛源码
 
-# Poker Tournament System
 
 > 一个开源的德州扑克锦标赛系统，支持MTT、SNG及俱乐部排名。
 
