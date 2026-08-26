@@ -1,63 +1,15 @@
-# 🏆 德州比赛源码 |德州竞技赛系统 | 德州扑克锦标赛系统|德州源碼|德州撲克|德州俱樂部|德州游戏源码|Mã nguồn Poker|Texas Hold’em Tournament Platform 
+markdown
+# Poker Tournament System|德州比赛源码
 
-🔥 Offline Poker Tournament System | 德州赛事系统 | 离线德州比赛系统  
-👉 Club + Ranking + Tournament Engine | Commercial Ready  
+> 一个开源的德州扑克锦标赛系统，支持MTT、SNG及俱乐部排名。
 
----
 
-## 🧠 项目定位 / Project Overview
 
-本项目是一套完整的德州扑克竞技赛事系统  
-This is a full poker tournament system  
+## 📖 项目简介
 
-支持离线与赛事模式：
+本项目是一个**开源的德州扑克锦标赛系统**，旨在为俱乐部和线下赛事提供数字化解决方案。它包含了完整的赛事管理、积分排名和俱乐部系统。
 
-- 锦标赛系统 / Tournament mode  
-- 积分排名 / Ranking system  
-- 赛事报名 / Event registration  
-- 俱乐部赛事 / Club tournaments  
-
-👉 可用于商业比赛平台  
-👉 Ready for commercial deployment  
-
----
-
-## ⚙️ 核心功能 / Features
-
-- 赛事系统引擎 / Tournament engine  
-- 积分排名机制 / Ranking system  
-- 多桌比赛支持 / Multi-table tournament  
-- 离线比赛模式 / Offline event mode  
-- 可扩展俱乐部系统 / Club system  
-
----
-
-## 🏆 使用场景 / Use Cases
-
-- 德州扑克比赛系统  
-- 棋牌赛事平台  
-- 俱乐部锦标赛  
-- 线下比赛系统数字化  
-
----
-
-## 🎮 赛事模式 / Tournament Types
-
-- Sit & Go  
-- Multi Table Tournament (MTT)  
-- Freezeout  
-- Ranking League  
-
----
-
-## 🚀 Quick Start
-git clone xxx  
-cd server  
-npm install  
-npm run start  
-## ✨ 核心特色 | Unique Features
-
-本项目是**支持线下赛事数字化**的德州扑克竞技赛系统：
+## ✨ 核心功能
 
 | 特色模块 | 功能说明 |
 | :--- | :--- |
@@ -75,8 +27,48 @@ npm run start
 | **MTT** | 多桌锦标赛，大规模赛事 |
 | **Freezeout** | 冻结赛制，无重购 |
 | **Ranking League** | 积分联赛，赛季排名 |
+## 🏗️ 技术架构
 
-## 📸 界面预览
+| 组件 | 技术栈 | 说明 |
+| :--- | :--- | :--- |
+| **前端/客户端** | Unity (C#) / H5 | 跨平台游戏客户端 |
+| **服务端** | Node.js | 游戏逻辑与API服务[reference:21] |
+| **数据库** | 待补充 | 数据持久化 |
+
+
+## 🚀 快速开始
+
+```bash
+# 克隆项目
+git clone https://github.com/masterai-top/poker-tournament-system.git
+
+# 进入服务端目录
+cd server
+
+# 安装依赖
+npm install
+
+# 启动服务
+npm start
+```
+## 📁 项目结构
+```
+poker-tournament-system/
+├── server/          # Node.js服务端
+├── client/          # 客户端代码 (Unity/H5)
+└── docs/            # 文档
+```
+## 🤝 贡献与交流
+*   **Telegram**：@xuzongbin001
+*   **Email**：masterai918@gmail.com[reference:22]
+
+## ⚠️ 重要声明
+本项目代码仅供**技术学习、学术研究**使用。严禁用于任何形式的**非法赌博**或**现金交易**。
+
+
+
+
+## 📸 界面预览|Screenshots
 
 | 赛事大厅 | 牌桌界面 | 酒店预定 |
 
@@ -91,19 +83,3 @@ npm run start
 
 
 
-## 💰 联系 | Contact
-
-
-
-📱 **Telegram：@xuzongbin001**  
-📧 **Email：masterai918@gmail.com**
-
-## 📊 Screenshots
-
-- Lobby
-- Poker Table
-- Tournament
-- Club System
-  ## 🧠 Architecture
-
-Client → Game Server → Match Engine → Database → Ranking System
