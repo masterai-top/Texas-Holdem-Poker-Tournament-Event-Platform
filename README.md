@@ -1,5 +1,5 @@
 markdown
-# Poker Tournament System|德州比赛源码
+# Poker Tournament System - 德州比赛源码
 
 
 > 一个开源的德州扑克锦标赛系统，支持MTT、SNG及俱乐部排名。
@@ -43,7 +43,7 @@ markdown
 
 ```bash
 # 克隆项目
-git clone https://github.com/masterai-top/poker-tournament-system.git
+git clone https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform.git
 
 # 进入服务端目录
 cd server
