@@ -1,0 +1,10 @@
+{
+  "name": "Texas Hold'em Tournament Platform",
+  "short_name": "Holdem Events",
+  "description": "C++/Tars platform for live Texas Hold'em tournament and club event operations.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f2ec",
+  "theme_color": "#0b3426",
+  "lang": "en"
+}
