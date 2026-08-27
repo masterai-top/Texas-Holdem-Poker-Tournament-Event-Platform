@@ -1,20 +1,23 @@
 # Changelog
 
-All notable public changes to this repository should be documented here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+All notable public documentation and release changes should be recorded here.
 
-## [Unreleased]
+## Unreleased
 
 ### Added
 
-- Simplified Chinese, Traditional Chinese, and English README entry points.
-- GitHub Pages documentation for features, architecture, and deployment.
-- Search crawler files, structured metadata, and a Pages deployment workflow.
-- Contribution and security reporting guidance.
+- Separate Simplified Chinese, English, and Traditional Chinese README files.
+- Public scope, deployment, release, support, and responsible-use guidance.
+- A GitHub Pages product and technical site using repository-hosted screenshots.
+- Issue and pull-request templates and a Pages deployment workflow.
+- A conservative `.gitignore` for C++, runtime, secret, editor, and OS output.
 
 ### Changed
 
-- Clarified external XGame/Tars build dependencies and commercial licensing boundaries.
+- Corrected the technology description from Node.js to the visible C++/Tars implementation.
+- Separated product scenarios shown in screenshots from capabilities verifiable in source.
+- Clarified external XGame/Tars dependencies and missing readable `.proto` sources.
 
-## Release policy
+### Security
 
-Version tags, dates, and migration notes should be added here when maintainers publish a release. Do not describe unreleased source snapshots as stable production releases.
+- Added explicit review requirements for outcome-control components, secrets, game integrity, privacy, and production deployment.

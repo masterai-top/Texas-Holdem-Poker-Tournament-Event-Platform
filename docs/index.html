@@ -1,55 +1,33 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Texas Hold'em Tournament Platform | C++ Poker Event Server</title>
-  <meta name="description" content="C++ and Tars server components for live Texas Hold'em tournaments, poker clubs, rankings, registration, tickets, and multi-table event operations.">
-  <meta name="keywords" content="Texas Hold'em tournament platform, poker event management, poker club system, multi-table tournament server, 德州扑克赛事系统, 德州锦标赛">
-  <meta name="author" content="masterai-top">
-  <meta name="robots" content="index, follow, max-image-preview:large">
-  <meta name="theme-color" content="#0b3426">
+  <title>德州扑克赛事平台源码 | C++ Tars 房间与赛事服务</title>
+  <meta name="description" content="德州扑克赛事平台源码，公开 C++/Tars 服务、房间与玩家生命周期组件、协议资源、玩法资料、产品截图和部署文档。">
+  <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://masterai-top.github.io/Texas-Holdem-Poker-Tournament-Event-Platform/">
-  <link rel="manifest" href="./site.webmanifest">
-  <link rel="stylesheet" href="./styles.css">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Texas Hold'em Tournament Platform">
-  <meta property="og:title" content="Texas Hold'em Tournament Platform">
-  <meta property="og:description" content="C++/Tars server architecture for live poker tournaments, clubs, rankings, registration, and ticket workflows.">
+  <meta property="og:title" content="Texas Hold'em Tournament Event Platform Source Code">
+  <meta property="og:description" content="C++/Tars tournament-related services, room lifecycle components, interfaces, protocol resources, and technical documentation.">
   <meta property="og:url" content="https://masterai-top.github.io/Texas-Holdem-Poker-Tournament-Event-Platform/">
-  <meta property="og:image" content="https://github.com/user-attachments/assets/75205d6e-3965-49c5-88fe-9f9b180e5097">
-  <meta property="og:image:alt" content="Texas Hold'em tournament mobile interface">
+  <meta property="og:image" content="https://masterai-top.github.io/Texas-Holdem-Poker-Tournament-Event-Platform/assets/screenshots/event-home.jpg">
   <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="assets/styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Texas Hold'em Poker Tournament Event Platform","description":"C++ and Tars server components for live Texas Hold'em tournament and poker club event operations.","codeRepository":"https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform","url":"https://masterai-top.github.io/Texas-Holdem-Poker-Tournament-Event-Platform/","programmingLanguage":["C++","C","Makefile"],"runtimePlatform":"Linux and Tars","license":"https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform/blob/main/LICENSE","author":{"@type":"Organization","name":"masterai-top","url":"https://github.com/masterai-top"},"keywords":"Texas Hold'em, poker tournament, live poker event, poker club, ranking system, C++, Tars"}
+  {"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Texas Hold'em Poker Tournament Event Platform","codeRepository":"https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform","url":"https://masterai-top.github.io/Texas-Holdem-Poker-Tournament-Event-Platform/","programmingLanguage":["C++","Tars IDL"],"runtimePlatform":"Linux and Tars","description":"C++/Tars Texas Hold'em tournament-related services, room and player lifecycle components, service interfaces, compiled protocol resources, documentation, and product screenshots.","author":{"@type":"Organization","name":"MasterAI","url":"https://github.com/masterai-top"}}
   </script>
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="./" aria-label="Texas Hold'em Tournament Platform home"><span class="mark">TH</span><span>Hold'em Events</span></a>
-    <nav aria-label="Primary navigation"><a href="./features.html">Features</a><a href="./architecture.html">Architecture</a><a href="./deployment.html">Deployment</a><a class="nav-github" href="https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform">GitHub</a></nav>
-  </header>
+  <header class="site-header"><nav class="nav" aria-label="主导航"><a class="brand" href="index.html">MasterAI Poker Events</a><div class="nav-links"><a href="features.html">功能范围</a><a href="architecture.html">技术架构</a><a href="deployment.html">部署检查</a><a href="responsible-use.html">公平与合规</a><a href="https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform">GitHub</a></div></nav></header>
   <main>
-    <section class="hero">
-      <div class="hero-media" role="img" aria-label="Texas Hold'em tournament app interface"></div><div class="hero-overlay"></div>
-      <div class="hero-content"><p class="eyebrow">C++ / Tars tournament infrastructure</p><h1>Texas Hold'em<br>Tournament Platform</h1><p class="lead">Server components for live tournament operations, poker clubs, player rankings, registration, tickets, and multi-table competition.</p><div class="actions"><a class="button primary" href="https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform">View source</a><a class="button secondary" href="#capabilities">Explore the system</a></div><p class="zh">德州扑克线下赛事、俱乐部、积分排名与多桌锦标赛服务端组件</p></div>
-      <a class="next" href="#capabilities" aria-label="Continue to capabilities">↓</a>
-    </section>
-    <section id="capabilities" class="section band">
-      <div class="section-heading"><p class="eyebrow">System scope</p><h2>Built around real event workflows</h2><p>The repository brings tournament logic and service integration points into one C++ codebase.</p></div>
-      <div class="capability-grid"><article><span>01</span><h3>Tournament engine</h3><p>Extensible structures for Sit & Go, MTT, Freezeout, and ranking league formats.</p></article><article><span>02</span><h3>Room and player state</h3><p>Game-room lifecycle, seating, stand-up, offline, and player information logic.</p></article><article><span>03</span><h3>Club and ranking services</h3><p>Protocol resources for clubs, activities, friends, rankings, and event operations.</p></article><article><span>04</span><h3>Registration and tickets</h3><p>Integration foundations for live-event qualification, registration, and ticket workflows.</p></article></div>
-    </section>
-    <section id="architecture" class="section architecture">
-      <div class="section-heading"><p class="eyebrow">Architecture</p><h2>Service-oriented C++ foundation</h2><p>Tars RPC connects tournament clients with game, club, event, configuration, and persistence services.</p></div>
-      <div class="pipeline" aria-label="System architecture flow"><div><b>01</b><strong>Client</strong><small>Tournament UI</small></div><i>→</i><div><b>02</b><strong>Tars gateway</strong><small>RPC and routing</small></div><i>→</i><div><b>03</b><strong>Game services</strong><small>Rules and state</small></div><i>→</i><div><b>04</b><strong>Data layer</strong><small>MySQL and config</small></div></div>
-      <div class="tech"><span>C++</span><span>Tars</span><span>Protobuf</span><span>MySQL</span><span>RapidJSON</span><span>Linux</span></div>
-    </section>
-    <section class="section preview">
-      <div class="preview-copy"><p class="eyebrow">Product context</p><h2>Designed for live tournament operations</h2><p>The server components are intended to support mobile event experiences and on-site poker tournament management. Interface images show the product context; this repository focuses on server code.</p><a class="text-link" href="https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform#screenshots">See all screenshots →</a></div>
-      <div class="phones"><img src="https://github.com/user-attachments/assets/75205d6e-3965-49c5-88fe-9f9b180e5097" alt="Texas Hold'em tournament lobby interface" loading="lazy"><img src="https://github.com/user-attachments/assets/b5619aaa-a50f-4353-9ae5-769b725f187b" alt="Texas Hold'em poker table interface" loading="lazy"></div>
-    </section>
-    <section id="license" class="section license"><div><p class="eyebrow">Responsible deployment</p><h2>Review the dependencies and license first</h2></div><div><p>The build targets an existing XGame/Tars Linux environment and depends on external modules not included here. Learning, research, and demonstration use is covered by the repository license; commercial deployment requires a separate license.</p><a class="button dark" href="https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform/blob/main/LICENSE">Read license terms</a></div></section>
+    <section class="hero"><img class="hero-media" src="assets/screenshots/event-home.jpg" alt="德州扑克赛事资讯和活动首页"><div class="hero-inner"><p class="eyebrow">C++ · Tars · Tournament Services</p><h1>德州扑克赛事平台源码</h1><p>C++/Tars 赛事相关服务、房间与玩家生命周期组件、服务接口、协议资源、玩法资料和产品场景展示。公开代码需要依赖补全、构建验证与安全审计。</p><div class="actions"><a class="button" href="architecture.html">查看技术架构</a><a class="button secondary" href="https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform">查看仓库</a></div></div></section>
+    <section class="band white"><div class="container"><p class="eyebrow">Public Scope</p><h2>以公开代码为准</h2><p class="lead">可见 C++ 服务、Tars 接口、房间与玩家流程、数据操作组件、编译协议资源和玩法资料；但缺少完整依赖、数据库迁移、原始 Protobuf 定义、自动化测试和已验证的一键部署。</p><div class="metrics"><div class="metric"><strong>C++</strong><span>GM 与游戏服务</span></div><div class="metric"><strong>Tars</strong><span>RPC 接口定义</span></div><div class="metric"><strong>Room Flow</strong><span>入桌、离桌、掉线、开局</span></div><div class="metric"><strong>Event Context</strong><span>赛事与现场服务场景</span></div></div></div></section>
+    <section class="band"><div class="container"><p class="eyebrow">Repository Components</p><h2>可验证的主要组件</h2><div class="feature-grid"><article class="feature-item"><strong>Services</strong><h3>GM 与游戏服务</h3><p>GMServer、GMServant、gameserver 和 gameroot 等服务组件。</p></article><article class="feature-item"><strong>Lifecycle</strong><h3>房间与玩家流程</h3><p>core 目录中的入桌、离桌、掉线、信息与开局处理。</p></article><article class="feature-item"><strong>Data Access</strong><h3>数据操作</h3><p>DBOperator 提供数据访问组件，数据库结构和事务仍需验证。</p></article><article class="feature-item"><strong>Contracts</strong><h3>Tars 接口</h3><p>GM、游戏、房间、机器人等服务接口，需要版本策略。</p></article><article class="feature-item"><strong>Protocol Assets</strong><h3>编译协议资源</h3><p>多个 proto.bytes 文件存在，但不能代替可读原始 proto 定义。</p></article><article class="feature-item"><strong>Gameplay Docs</strong><h3>玩法时序资料</h3><p>快速游戏、SNG 与 Private 资料用于理解产品和服务流程。</p></article></div></div></section>
+    <section class="band dark"><div class="container"><p class="eyebrow">Service Flow</p><h2>服务链路</h2><p class="lead">实际生产部署还需要网关、鉴权、持久化、可观测性、备份、测试和合规控制。</p><div class="pipeline"><div class="pipeline-step"><h3>客户端/网关</h3><p>连接、鉴权与限流。</p></div><div class="pipeline-step"><h3>Tars 接口</h3><p>服务调用与消息契约。</p></div><div class="pipeline-step"><h3>GM/游戏服务</h3><p>房间与玩家流程。</p></div><div class="pipeline-step"><h3>状态与消息</h3><p>开局、掉线和事件处理。</p></div><div class="pipeline-step"><h3>外部系统</h3><p>数据库与 XGame 服务。</p></div></div></div></section>
+    <section class="band white"><div class="container"><p class="eyebrow">Product Context</p><h2>产品场景截图</h2><div class="gallery"><figure><img loading="lazy" src="assets/screenshots/online-events.jpg" alt="德州扑克在线赛事列表"><figcaption>在线赛事列表</figcaption></figure><figure><img loading="lazy" src="assets/screenshots/event-services.jpg" alt="德州扑克线下赛事报名和酒店服务"><figcaption>现场赛事服务</figcaption></figure><figure><img loading="lazy" src="assets/screenshots/tournament-table.jpg" alt="德州扑克赛事牌桌"><figcaption>赛事牌桌</figcaption></figure><figure><img loading="lazy" src="assets/screenshots/starting-hand-chart.jpg" alt="德州扑克起手牌力表"><figcaption>起手牌力内容</figcaption></figure></div></div></section>
+    <section class="band felt"><div class="container"><h2>上线前完成技术、公平性与合规审计</h2><p class="lead">公开文件数量、截图和搜索排名不能替代干净环境构建、自动化测试、依赖授权、安全评估与属地法律审查。</p><div class="actions"><a class="button" href="deployment.html">部署检查</a><a class="button secondary" href="responsible-use.html">公平与合规</a></div></div></section>
   </main>
-  <footer><span>Texas Hold'em Tournament Platform</span><span>Open technical overview by masterai-top</span></footer>
+  <footer class="site-footer"><div class="container">MasterAI · <a href="https://github.com/masterai-top">GitHub Profile</a> · <a href="mailto:masterai918@gmail.com">Technical Contact</a></div></footer>
 </body>
 </html>

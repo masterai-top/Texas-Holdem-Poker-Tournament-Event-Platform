@@ -1,22 +1,19 @@
 # Contributing
 
-Thank you for helping improve the Texas Hold'em Poker Tournament Event Platform.
+Contributions that improve build reproducibility, protocol documentation, game-state correctness, tests, security, fairness, and accessibility are welcome.
 
-## Before opening a change
+## Before opening an issue
 
-1. Search existing issues and pull requests to avoid duplication.
-2. Keep changes focused and explain the affected service, protocol, or document.
-3. Do not commit credentials, production data, private keys, generated secrets, or third-party code without redistribution rights.
-4. Confirm that your use and contribution comply with the repository license and applicable law.
-
-## Development notes
-
-The server targets an existing Linux-based XGame/Tars environment. The repository does not include every external module or generated header. Document any required version, path, schema, or configuration change in the pull request. Avoid claiming a clean build unless it has been tested with all required dependencies.
-
-For C++ changes, include the test scenario, build environment, and relevant logs. For protocol changes, describe backward compatibility and rollout order. For documentation changes, verify local links and the GitHub Pages output.
+Search existing issues and record the exact commit, operating system, compiler, Tars version, command, expected result, actual result, and first relevant error. Remove credentials, private endpoints, personal data, exploit details, and proprietary assets.
 
 ## Pull requests
 
-Use a clear title and include: purpose, scope, validation performed, compatibility impact, and screenshots for visible documentation changes. Small, reviewable pull requests are preferred.
+1. Keep changes focused and name the affected service, protocol, room/game-flow, database, documentation, or site area.
+2. Add tests for behavior changes where a runnable harness exists.
+3. Describe compatibility, configuration, database, fairness, and rollback impact.
+4. Do not commit generated binaries, `.d` files, logs, caches, credentials, or production configuration.
+5. Explain any change to RNG, bot behavior, card selection, win-rate logic, balance, eligibility, or settlement.
+6. Confirm that all contributed code and media may legally be distributed under the final licensing model.
+7. Update documentation and `CHANGELOG.md` when behavior or public interfaces change.
 
-By contributing, you confirm that you have the right to submit the work and agree that it is distributed under this repository's license terms.
+The current license text requires legal review. Contributors should not assume that commercial restrictions override or narrow an open-source grant without a legally consistent license.

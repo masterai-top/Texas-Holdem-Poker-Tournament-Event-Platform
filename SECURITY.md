@@ -1,6 +1,9 @@
 # Security Policy
 
-请勿在公开 Issue 中披露可直接利用的漏洞、凭据或私人数据。请通过仓库 About 中的维护者联系方式私下报告受影响模块、版本、复现条件和潜在影响。
+Do not disclose exploitable vulnerabilities, credentials, private endpoints, personal data, or production logs in a public Issue.
 
-公开源码不应被视为已通过安全、公平性、AI、支付或性能审计。
+Report privately to [masterai918@gmail.com](mailto:masterai918@gmail.com) with the affected commit and component, prerequisites, sanitized reproduction steps, observed impact, possible data exposure, and any proposed mitigation.
 
+High-priority areas include authentication, authorization, administrative actions, RNG and card integrity, bot controls, `robotwinrate.*`, `setwincard.*`, replay protection, duplicate settlement, balance changes, SQL/command injection, deserialization, memory safety, denial of service, dependency vulnerabilities, and secrets in Git history.
+
+Do not test against production systems or access other users' data without written authorization. The public source has not been represented as having passed security, fairness, payment, privacy, or performance audits. No response or remediation timeline is guaranteed.
