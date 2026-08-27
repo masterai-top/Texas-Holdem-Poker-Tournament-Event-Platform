@@ -61,6 +61,14 @@ poker-tournament-system/
 ├── client/          # 客户端代码 (Unity/H5)
 └── docs/            # 文档
 ```
+
+## MasterAI 相关德州扑克项目
+
+- [MasterAI 项目主页](https://github.com/masterai-top)
+- [德州扑克完整解决方案](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
+- [德州金币大厅](https://github.com/masterai-top/Texas-Holdem-Poker-Game-Server-Club-Source-Code)
+- [CFR 德州扑克 AI](https://github.com/masterai-top/cfr-poker-ai-masterai)
+- 
 ## 🤝 贡献与交流
 *   **Telegram**：@xuzongbin001
 *   **Email**：masterai918@gmail.com[reference:22]
