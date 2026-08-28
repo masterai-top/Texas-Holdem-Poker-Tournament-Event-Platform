@@ -66,7 +66,7 @@ poker-tournament-system/
 
 - [MasterAI 项目主页](https://github.com/masterai-top)
 - [德州俱乐部完整解决方案](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
-- [德州金币大厅](https://github.com/masterai-top/Texas-Holdem-Poker-Game-Server-Club-Source-Code)
+- [德州金币大厅](https://github.com/masterai-top/Texas-Hold-em-Points-Lobby)
 - [CFR 德州扑克 AI](https://github.com/masterai-top/cfr-poker-ai-masterai)
 - 
 ## 🤝 贡献与交流
