@@ -101,7 +101,7 @@ flowchart LR
 
 - [MasterAI 專案首頁](https://github.com/masterai-top)
 - [德州撲克完整解決方案](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
-- [德州积分大厅](https://github.com/masterai-top/Texas-Holdem-Poker-Game-Server-Club-Source-Code)
+- [德州积分大厅](https://github.com/masterai-top/Texas-Hold-em-Points-Lobby)
 - [CFR 德州撲克 AI](https://github.com/masterai-top/cfr-poker-ai-masterai)
 
 ## 聯絡與貢獻
