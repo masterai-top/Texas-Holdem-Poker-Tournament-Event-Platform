@@ -101,7 +101,7 @@ The current repository `LICENSE` combines MIT permission language, commercial re
 
 - [MasterAI profile](https://github.com/masterai-top)
 - [Texas Hold'em complete solution](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
-- [Texas Hold'em club and match server](https://github.com/masterai-top/Texas-Holdem-Poker-Game-Server-Club-Source-Code)
+- [Texas Hold'em club and match server](https://github.com/masterai-top/Texas-Hold-em-Points-Lobby)
 - [CFR poker AI](https://github.com/masterai-top/cfr-poker-ai-masterai)
 
 ## Contact and contribution
