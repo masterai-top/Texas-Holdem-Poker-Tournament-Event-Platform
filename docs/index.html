@@ -5,25 +5,40 @@
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>德州扑克赛事平台源码</title>
-  <meta name="description" content="德州扑克赛事平台源码，支持线下和线上的比赛，SNG,MTT等">
+  <title>德州扑克赛事源码</title>
+  <meta name="description" content="德州扑克赛事平台源码，支持线上线下赛事、SNG、MTT、房间管理、报名流程、C++ 服务和 Tars 接口。">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://masterai-top.github.io/Texas-Holdem-Poker-Tournament-Event-Platform/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Texas Hold'em Tournament Event Platform Source Code">
-  <meta property="og:description" content="C++/Tars tournament-related services, room lifecycle components,.">
+  <meta property="og:title" content="Texas Holdem Tournament Source Code">
+  <meta property="og:description" content="Texas Holdem tournament platform source code with C++ services, Tars interfaces, room lifecycle, SNG and MTT event flow.">
   <meta property="og:url" content="https://masterai-top.github.io/Texas-Holdem-Poker-Tournament-Event-Platform/">
   <meta property="og:image" content="https://masterai-top.github.io/Texas-Holdem-Poker-Tournament-Event-Platform/assets/screenshots/event-home.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="assets/styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Texas Hold'em Poker Tournament Event Platform","codeRepository":"https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform","url":"https://masterai-top.github.io/Texas-Holdem-Poker-Tournament-Event-Platform/","programmingLanguage":["C++","Tars IDL"],"runtimePlatform":"Linux and Tars","description":"C++/Tars Texas Hold'em tournament-related services, room and player lifecycle components, service interfaces, compiled protocol resources, documentation, and product screenshots.","author":{"@type":"Organization","name":"MasterAI","url":"https://github.com/masterai-top"}}
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareSourceCode",
+    "name": "Texas Holdem Tournament Source Code",
+    "alternateName": "德州扑克赛事源码",
+    "codeRepository": "https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform",
+    "url": "https://masterai-top.github.io/Texas-Holdem-Poker-Tournament-Event-Platform/",
+    "programmingLanguage": ["C++", "Tars IDL"],
+    "runtimePlatform": "Linux and Tars",
+    "description": "Texas Holdem tournament platform source code with C++ services, Tars interfaces, room lifecycle, SNG and MTT event flow.",
+    "author": {
+      "@type": "Organization",
+      "name": "MasterAI",
+      "url": "https://github.com/masterai-top"
+    }
+  }
   </script>
 </head>
 <body>
   <header class="site-header"><nav class="nav" aria-label="主导航"><a class="brand" href="index.html">MasterAI Poker Events</a><div class="nav-links"><a href="features.html">功能范围</a><a href="architecture.html">技术架构</a><a href="deployment.html">部署检查</a><a href="responsible-use.html">公平与合规</a><a href="https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform">GitHub</a></div></nav></header>
   <main>
-    <section class="hero"><img class="hero-media" src="assets/screenshots/event-home.jpg" alt="德州扑克赛事资讯和活动首页"><div class="hero-inner"><p class="eyebrow">C++ · Tars · Tournament Services</p><h1>德州扑克赛事平台源码</h1><p>C++/Tars 赛事相关服务、房间与玩家生命周期组件、服务接口、协议资源、玩法资料和产品场景展示。公开代码需要依赖补全、构建验证与安全审计。</p><div class="actions"><a class="button" href="architecture.html">查看技术架构</a><a class="button secondary" href="https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform">查看仓库</a></div></div></section>
+    <section class="hero"><img class="hero-media" src="assets/screenshots/event-home.jpg" alt="德州扑克赛事资讯和活动首页"><div class="hero-inner"><p class="eyebrow">C++ · Tars · Tournament Services</p><h1>德州扑克赛事源码</h2><p>C++/Tars 赛事相关服务、房间与玩家生命周期组件、服务接口、协议资源、玩法资料和产品场景展示。公开代码需要依赖补全、构建验证与安全审计。</p><div class="actions"><a class="button" href="architecture.html">查看技术架构</a><a class="button secondary" href="https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform">查看仓库</a></div></div></section>
     <section class="band white"><div class="container"><p class="eyebrow">Public Scope</p><h2>以公开代码为准</h2><p class="lead">可见 C++ 服务、Tars 接口、房间与玩家流程、数据操作组件、编译协议资源和玩法资料；但缺少完整依赖、数据库迁移、原始 Protobuf 定义、自动化测试和已验证的一键部署。</p><div class="metrics"><div class="metric"><strong>C++</strong><span>GM 与游戏服务</span></div><div class="metric"><strong>Tars</strong><span>RPC 接口定义</span></div><div class="metric"><strong>Room Flow</strong><span>入桌、离桌、掉线、开局</span></div><div class="metric"><strong>Event Context</strong><span>赛事与现场服务场景</span></div></div></div></section>
     <section class="band"><div class="container"><p class="eyebrow">Repository Components</p><h2>可验证的主要组件</h2><div class="feature-grid"><article class="feature-item"><strong>Services</strong><h3>GM 与游戏服务</h3><p>GMServer、GMServant、gameserver 和 gameroot 等服务组件。</p></article><article class="feature-item"><strong>Lifecycle</strong><h3>房间与玩家流程</h3><p>core 目录中的入桌、离桌、掉线、信息与开局处理。</p></article><article class="feature-item"><strong>Data Access</strong><h3>数据操作</h3><p>DBOperator 提供数据访问组件，数据库结构和事务仍需验证。</p></article><article class="feature-item"><strong>Contracts</strong><h3>Tars 接口</h3><p>GM、游戏、房间、机器人等服务接口，需要版本策略。</p></article><article class="feature-item"><strong>Protocol Assets</strong><h3>编译协议资源</h3><p>多个 proto.bytes 文件存在，但不能代替可读原始 proto 定义。</p></article><article class="feature-item"><strong>Gameplay Docs</strong><h3>玩法时序资料</h3><p>快速游戏、SNG 与 Private 资料用于理解产品和服务流程。</p></article></div></div></section>
     <section class="band dark"><div class="container"><p class="eyebrow">Service Flow</p><h2>服务链路</h2><p class="lead">实际生产部署还需要网关、鉴权、持久化、可观测性、备份、测试和合规控制。</p><div class="pipeline"><div class="pipeline-step"><h3>客户端/网关</h3><p>连接、鉴权与限流。</p></div><div class="pipeline-step"><h3>Tars 接口</h3><p>服务调用与消息契约。</p></div><div class="pipeline-step"><h3>GM/游戏服务</h3><p>房间与玩家流程。</p></div><div class="pipeline-step"><h3>状态与消息</h3><p>开局、掉线和事件处理。</p></div><div class="pipeline-step"><h3>外部系统</h3><p>数据库与 XGame 服务。</p></div></div></div></section>
@@ -33,3 +48,4 @@
   <footer class="site-footer"><div class="container">MasterAI · <a href="https://github.com/masterai-top">GitHub Profile</a> · <a href="mailto:masterai918@gmail.com">Technical Contact</a></div></footer>
 </body>
 </html>
+
