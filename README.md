@@ -135,13 +135,7 @@ poker-tournament-system/
 目前倉庫的 `LICENSE` 同時包含 MIT 自由授權、商業限制和 “All Rights Reserved” 表述，可能互相衝突。應在法律審查後確定唯一或清晰的雙重授權方式，並讓 README、About、銷售說明、Release 和程式碼標頭保持一致。本優化包不會覆蓋現有授權檔案。
 
 
-## 相關專案
 
-
-- [MasterAI 專案首頁](https://github.com/masterai-top)
-- [德州撲克完整解決方案](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
-- [德州积分大厅](https://github.com/masterai-top/Texas-Hold-em-Points-Lobby)
-- [CFR 德州撲克 AI](https://github.com/masterai-top/cfr-poker-ai-masterai)
 
 ## ⚠️ 重要声明
 本项目代码仅供**技术学习、学术研究**使用。严禁用于任何形式的**非法赌博**或**现金交易**。
