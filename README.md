@@ -92,11 +92,6 @@ poker-tournament-system/
 *   **Telegram**：@xuzongbin001
 *   **Email**：masterai918@gmail.com
 
-
-## ⚠️ 重要声明
-本项目代码仅供**技术学习、学术研究**使用。严禁用于任何形式的**非法赌博**或**现金交易**。
-
-
 ## 📸 界面预览|Screenshots
 
 
@@ -110,3 +105,46 @@ poker-tournament-system/
 <img width="1284" height="2778" alt="2024_01_20_12_59_IMG_6694" src="https://github.com/user-attachments/assets/30a5a13e-84e7-404f-bfa9-bf677995c23a" />
 <img width="1284" height="2778" alt="2024_01_20_12_59_IMG_6691" src="https://github.com/user-attachments/assets/e4011935-542e-4650-9ac2-ba825c2720db" />
 <img width="1280" height="2832" alt="7de0125344fca9b09579d4458230ff6a_720" src="https://github.com/user-attachments/assets/7aa46211-ce9f-41b8-ac5a-e0323c3dd4fc" />
+
+
+
+
+
+## 公平性與安全
+
+
+原始碼中出現 `robotwinrate.*`、`setwincard.*` 等與牌局結果控制相關的高風險元件。正式環境必須明確用途、限制存取、加入不可竄改稽核，並接受獨立公平性評估；非合法測試所必需的程式碼應從正式版本移除。不得用於操縱真實玩家結果、隱瞞賠率或規避監管。
+
+
+## 文件
+
+
+- [公開範圍說明](PUBLIC-SCOPE.md)
+- [部署檢查清單](DEPLOYMENT-CHECKLIST.md)
+- [發布檢查清單](RELEASE-CHECKLIST.md)
+- [負責任使用](RESPONSIBLE-USE.md)
+- [安全報告](SECURITY.md)
+- [支援說明](SUPPORT.md)
+- [架構頁面](docs/architecture.html)
+- [功能與範圍](docs/features.html)
+
+
+## 授權注意事項
+
+
+目前倉庫的 `LICENSE` 同時包含 MIT 自由授權、商業限制和 “All Rights Reserved” 表述，可能互相衝突。應在法律審查後確定唯一或清晰的雙重授權方式，並讓 README、About、銷售說明、Release 和程式碼標頭保持一致。本優化包不會覆蓋現有授權檔案。
+
+
+## 相關專案
+
+
+- [MasterAI 專案首頁](https://github.com/masterai-top)
+- [德州撲克完整解決方案](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
+- [德州积分大厅](https://github.com/masterai-top/Texas-Hold-em-Points-Lobby)
+- [CFR 德州撲克 AI](https://github.com/masterai-top/cfr-poker-ai-masterai)
+
+## ⚠️ 重要声明
+本项目代码仅供**技术学习、学术研究**使用。严禁用于任何形式的**非法赌博**或**现金交易**。
+
+
+
