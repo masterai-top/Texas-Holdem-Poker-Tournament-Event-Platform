@@ -90,7 +90,7 @@ poker-tournament-system/
 - 
 ## 🤝 贡献与交流
 *   **Telegram**：@xuzongbin001
-*   **Email**：masterai918@gmail.com[reference:22]
+*   **Email**：masterai918@gmail.com
 
 
 ## ⚠️ 重要声明
