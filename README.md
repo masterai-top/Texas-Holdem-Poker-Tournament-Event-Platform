@@ -1,18 +1,28 @@
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
+
+# 德州扑克 SNG、MTT 与线下赛事平台|德州比赛源码
+
 markdown
-# Poker Tournament System - 德州比赛源码
-**简体中文** | [English](README.en.md) | [繁體中文](README.zh-TW.md)
+## 扑克赛事主仓库 | Texas-Holdem-Poker-Tournament-Event-Platform
+
+
+> 项目功能、性能、运营记录与部署能力应结合当前版本独立验证；许可证和第三方素材范围以仓库文件为准。
+
 
 > 一个开源的德州扑克锦标赛系统，支持MTT、SNG及俱乐部排名。
+
 
 本项目是一套完整的德州扑克竞技赛事系统，支持离线与在线赛事模式，可用于搭建商业比赛平台或进行二次开发。
 
 
-
 ## 📖 项目简介
+
 
 本项目是一个**开源的德州扑克锦标赛系统**，旨在为俱乐部和线下赛事提供数字化解决方案。它包含了完整的赛事管理、积分排名和俱乐部系统。
 
+
 ## ✨ 核心功能
+
 
 | 特色模块 | 功能说明 |
 | :--- | :--- |
@@ -22,7 +32,9 @@ markdown
 | 🎫 **门票系统** | 在线报名、门票购买、对接国内赛事 |
 | 📈 **积分排名** | 选手积分、排行榜、赛季统计 |
 
+
 ## 🎯 赛事模式 | Tournament Types
+
 
 | 模式 | 说明 |
 | :--- | :--- |
@@ -31,6 +43,7 @@ markdown
 | **Freezeout** | 冻结赛制，无重购 |
 | **Ranking League** | 积分联赛，赛季排名 |
 ## 🏗️ 技术架构
+
 
 | 组件 | 技术栈 | 说明 |
 | :--- | :--- | :--- |
@@ -41,17 +54,21 @@ markdown
 
 ## 🚀 快速开始
 
+
 ```bash
-# 克隆项目
+## 克隆项目
 git clone https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform.git
 
-# 进入服务端目录
+
+## 进入服务端目录
 cd server
 
-# 安装依赖
+
+## 安装依赖
 npm install
 
-# 启动服务
+
+## 启动服务
 npm start
 ```
 ## 📁 项目结构
@@ -62,7 +79,9 @@ poker-tournament-system/
 └── docs/            # 文档
 ```
 
+
 ## MasterAI 相关德州扑克项目
+
 
 - [MasterAI 项目主页](https://github.com/masterai-top)
 - [德州俱乐部完整解决方案](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
@@ -73,15 +92,16 @@ poker-tournament-system/
 *   **Telegram**：@xuzongbin001
 *   **Email**：masterai918@gmail.com[reference:22]
 
+
 ## ⚠️ 重要声明
 本项目代码仅供**技术学习、学术研究**使用。严禁用于任何形式的**非法赌博**或**现金交易**。
 
 
-
-
 ## 📸 界面预览|Screenshots
 
+
 | 赛事大厅 | 牌桌界面 | 酒店预定 |
+
 
 <img width="1284" height="2778" alt="2024_01_20_13_00_IMG_6699" src="https://github.com/user-attachments/assets/75205d6e-3965-49c5-88fe-9f9b180e5097" />
 <img width="1284" height="2778" alt="2024_01_20_12_59_IMG_6697" src="https://github.com/user-attachments/assets/b5619aaa-a50f-4353-9ae5-769b725f187b" />
@@ -90,7 +110,3 @@ poker-tournament-system/
 <img width="1284" height="2778" alt="2024_01_20_12_59_IMG_6694" src="https://github.com/user-attachments/assets/30a5a13e-84e7-404f-bfa9-bf677995c23a" />
 <img width="1284" height="2778" alt="2024_01_20_12_59_IMG_6691" src="https://github.com/user-attachments/assets/e4011935-542e-4650-9ac2-ba825c2720db" />
 <img width="1280" height="2832" alt="7de0125344fca9b09579d4458230ff6a_720" src="https://github.com/user-attachments/assets/7aa46211-ce9f-41b8-ac5a-e0323c3dd4fc" />
-
-
-
-
