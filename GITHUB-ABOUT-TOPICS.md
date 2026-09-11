@@ -5,13 +5,13 @@ GitHub 的 About 与 Topics 需要仓库管理员在仓库主页右侧手动设�
 ## About description
 
 ```text
-C++/Tars platform for live Texas Hold'em tournaments, poker clubs, rankings, registration, tickets, and multi-table event operations.
+德州扑克赛事平台源码，包含 SNG、MTT、线上赛事、线下报名及 C++/Tars 服务端。Texas Hold'em tournament platform source code.
 ```
 
 建议 Website：
 
 ```text
-https://masterai-top.github.io/Texas-Holdem-Poker-Tournament-Event-Platform/
+https://masterai-top.github.io/Texas-Holdem-Poker-Tournament-Event-Platform/zh-cn/
 ```
 
 ## Topics
