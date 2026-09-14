@@ -28,6 +28,9 @@ h3 { font-size: 1.1rem; }
 .nav-links { display: flex; flex-wrap: wrap; align-items: center; gap: 17px; }
 .nav-links a { color: #e7ece8; font-size: .9rem; text-decoration: none; }
 .nav-links a:hover, .nav-links a:focus-visible { color: var(--gold); }
+.language-switch { display: flex; flex-wrap: wrap; gap: 7px; }
+.language-switch a { border: 1px solid #626963; border-radius: 4px; padding: 6px 9px; color: var(--white); font-size: .8rem; text-decoration: none; }
+.language-switch a:hover, .language-switch .active { border-color: var(--white); background: var(--white); color: var(--ink); }
 
 .hero { position: relative; display: grid; min-height: clamp(520px, 72vh, 680px); align-items: end; overflow: hidden; background: var(--felt-dark); color: var(--white); }
 .hero::before { position: absolute; z-index: 1; inset: 0; content: ""; background: rgba(4,25,20,.7); }
@@ -63,6 +66,11 @@ h3 { font-size: 1.1rem; }
 .gallery figure { margin: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 6px; background: var(--white); }
 .gallery img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: #101311; }
 .gallery figcaption { padding: 13px 16px; font-weight: 700; }
+.language-band { background: #e8ece8; }
+.language-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; margin-top: 28px; }
+.language-grid a { display: flex; min-height: 128px; flex-direction: column; justify-content: center; border: 1px solid var(--line); border-top: 4px solid var(--felt); border-radius: 6px; padding: 22px; background: var(--white); text-decoration: none; }
+.language-grid strong { color: var(--ink); font-size: 1.15rem; }
+.language-grid span { margin-top: 6px; color: var(--muted); }
 
 .page-hero { padding: 84px 0 60px; background: var(--felt-dark); color: var(--white); }
 .page-hero h1 { font-size: clamp(2.05rem, 5vw, 3.9rem); }
@@ -82,13 +90,14 @@ code { overflow-wrap: anywhere; }
 
 @media (max-width: 900px) {
   .metrics, .pipeline { grid-template-columns: repeat(2,minmax(0,1fr)); }
-  .feature-grid, .content-grid { grid-template-columns: 1fr; }
+  .feature-grid, .content-grid, .language-grid { grid-template-columns: 1fr; }
   .toc { display: none; }
 }
 
 @media (max-width: 620px) {
   .nav { align-items: flex-start; flex-direction: column; padding: 14px 0; }
   .nav-links { gap: 12px; }
+  .language-switch { width: 100%; }
   .hero-inner { padding-bottom: 48px; }
   .metrics, .pipeline, .gallery { grid-template-columns: 1fr; }
   .band { padding: 52px 0; }

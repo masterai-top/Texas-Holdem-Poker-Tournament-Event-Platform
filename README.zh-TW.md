@@ -1,6 +1,6 @@
 [简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-# 德州撲克 SNG、MTT 與線下賽事平台|德州比赛源码
+# 德州撲克赛事平台源码（德州源码） - SNG、MTT 与线下赛事 C++ 服务端 
 
 [![Server](https://img.shields.io/badge/server-C%2B%2B-00599C)](GMServer.cpp)
 [![RPC](https://img.shields.io/badge/RPC-Tars-1683FA)](GMServant.tars)

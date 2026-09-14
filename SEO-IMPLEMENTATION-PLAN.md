@@ -1,62 +1,40 @@
-# 多人德州扑克源码 SEO 优化方案
+# 德州扑克赛事平台 SEO 执行方案
 
-## 当前问题
+适用仓库：`masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform`
 
-1. README 主要是营销和联系信息，缺少下载、构建、模块与源码范围说明。
-2. About 重复堆叠“德州源码”并使用 `wpk` 等第三方品牌词。
-3. `poker-game-java` 与公开的 C++ 源码不符，`the-strongest-ai` 属于不可验证的夸张表述。
-4. Unity 目录缺少公开 `Assets/`，不能宣称完整客户端可构建。
-5. 根目录提交 `.d` 构建产物，缺少 `.gitignore`。
-6. “10+玩法、无 bug、高并发、商业可用”等结论缺少测试和公开组件证据。
+## 搜索定位
 
-## 建议增加
+- 简体中文：德州赛事、德州扑克赛事、德州扑克赛事源码、SNG 比赛系统、MTT 锦标赛源码
+- 繁体中文：德州撲克賽事、德州撲克賽事源碼、SNG、MTT 錦標賽
+- 英文：Texas Holdem tournament platform source code、poker tournament server、SNG MTT source code
 
-```text
-.
-|-- README.md
-|-- LICENSE
-|-- .gitignore
-|-- CONTRIBUTING.md
-|-- SECURITY.md
-|-- CHANGELOG.md
-|-- docs/
-|   |-- multiplayer-poker-source-code.md
-|   |-- server-architecture.md
-|   |-- build-guide.md
-|   |-- poker-bot-auto-actions.md
-|   |-- room-message-flow.md
-|   |-- security-compliance.md
-|   `-- faq.md
-|-- config/example/          # 脱敏配置
-|-- tests/                   # 登录、消息、机器人和状态测试
-|-- examples/                # 协议示例
-|-- benchmarks/              # 性能及机器人基准
-`-- .github/workflows/       # CI
-```
+页面应分别回答搜索意图，避免机械重复关键词。公开功能、依赖和限制必须与仓库实际内容一致。
 
-## 工程优化
+## 已完成的仓库内优化
 
-- 记录经过验证的系统、编译器、Tars 和数据库版本。
-- 增加登录、权限、房间消息、断线、机器人行为和自动操作测试。
-- 为机器人模块记录输入、决策边界和基准，不使用“最强 AI”。
-- GM 接口必须强鉴权、最小权限和审计。
-- 完善 `.gitignore`，移除 `.d`、对象文件和本地产物。
-- 若公开 Unity 客户端，补齐 `Assets/` 和 Unity 版本；否则说明仅含项目配置。
-- 创建规范 Release，明确公开源码范围、构建状态和校验值。
+1. 根目录提供简体、繁体和英文 README。
+2. `docs/index.html` 使用赛事专属标题、产品截图、代码范围、架构入口和三语言入口。
+3. `docs/zh-cn/`、`docs/zh-tw/`、`docs/en/` 提供独立语言页面。
+4. 页面设置 canonical、hreflang、Open Graph、图片说明和 `SoftwareSourceCode` 结构化数据。
+5. `sitemap.xml` 收录根首页、三语言页及主要技术页面；`robots.txt` 指向站点地图。
+6. 页面说明公开代码范围、外部依赖、公平性和部署风险，避免无法验证的商业化承诺。
 
-## 搜索与下载
+## 上传后立即执行
 
-主关键词：`德州源码`、`德州扑克源码`。差异化关键词：`多人德州服务端`、`扑克机器人源码`、`C++ Tars poker server`。
+1. 在 GitHub 仓库 About 中填写 `GITHUB-ABOUT-TOPICS.md` 提供的 description、Website 和 Topics。
+2. 在 Settings > Pages 确认发布源为 `docs/` 或现有 GitHub Actions 工作流。
+3. 打开根首页及 `/zh-cn/`、`/zh-tw/`、`/en/`，检查图片、CSS 和语言切换。
+4. Google Search Console 与 Bing Webmaster Tools 只提交 `https://masterai-top.github.io/Texas-Holdem-Poker-Tournament-Event-Platform/sitemap.xml`。
+5. 分别对根首页和三个语言页执行 URL 检查或请求编入索引，不要把单个 HTML 页面当作 sitemap 提交。
 
-README 首屏回答公开内容、下载和构建；docs 页面分别处理架构、机器人、房间消息和安全。不要在多个仓库使用几乎相同的 README，否则会形成重复内容竞争。
+## 持续提升排名
 
-建议建立 GitHub Pages 文档站，配置 title、description、canonical、sitemap、robots.txt 和 `SoftwareSourceCode` 结构化数据，通过 Google Search Console 提交 sitemap。
+- 发布可验证的 Release，列出 C++、Tars、数据库和外部依赖版本。
+- 增加最小构建流程、脱敏配置示例、自动化测试和运行截图。
+- 针对 SNG 房间生命周期、MTT 状态流转、断线重连和赛事报名分别编写原创技术文档。
+- 从相关项目 README、技术文章和可信站点建立语义相关的自然链接。
+- 每月查看 Google/Bing 的查询词、点击率和索引状态，再依据真实数据调整标题与内容。
 
-## 执行顺序
+## 结果边界
 
-1. 替换 README、About 和 Topics。
-2. 清理品牌词、错误语言 Topic 和夸张 AI 表述。
-3. 添加 `.gitignore`、构建、测试、配置及安全文档。
-4. 增加 CI 与首个规范 Release。
-5. 发布差异化技术文章和文档站。
-
+优化可以提升抓取、多语言识别、关键词相关性、图片搜索机会和点击理解，但无法保证固定排名第一。排名还取决于竞争强度、站点权威、外部链接、内容更新和搜索地区。
